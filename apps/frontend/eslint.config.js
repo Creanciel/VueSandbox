@@ -84,7 +84,7 @@ export default [
         multiline: 1,
       }],
       'vue/no-unused-properties': ['error', {
-        'groups': ['props', 'data', 'computed', 'methods', 'setup'],
+        'groups': ['data', 'computed', 'methods', 'setup'],
         'deepData': false,
         'ignorePublicMembers': false,
         'unreferencedOptions': [],
@@ -92,12 +92,6 @@ export default [
       'vue/html-closing-bracket-newline': ['error', {
         singleline: 'never',
         multiline: 'always',
-      }],
-      'vue/html-indent': ['error', 2, {
-        attribute: 1,
-        baseIndent: 1,
-        closeBracket: 0,
-        alignAttributesVertically: true,
       }],
     },
   },
